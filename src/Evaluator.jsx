@@ -13,7 +13,7 @@ function Evaluator() {
 
         <>
             <div className="d-flex justify-content-center align-items-center" style={{ height: "80vh" }}>
-                <div className='w-50 shadow p-4'>
+                <div className='shadow p-4 w-75'>
                     <h3 className='text-center text-info fw-bold'>Calculator</h3>
                     <div className='my-3 d-flex justify-content-around'>
                         <input type="text" className='form-control' placeholder='Enter an Expression' value={expression} onChange={(e) => setExpression(e.target.value)} />
